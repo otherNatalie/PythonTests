@@ -1,0 +1,8 @@
+print('Reverse some text')
+string = input('Enter your string: ')
+length = int(len(string))
+for iter in range(1, length+1):
+    print(string[-iter])
+
+# for var in string:
+#     print (var)
